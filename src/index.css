@@ -1,0 +1,33 @@
+:root {
+  --light-color: rgb(245, 245, 220);
+  --accent-color: rgb(206, 147, 216);
+  --border-color: rgba(206, 147, 216, 0.5);
+  --button-bgc: rgba(206, 147, 216, 0.12);
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  background-color: #121212;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+h1 {
+  text-align: center;
+  color: var(--light-color);
+}
+
+h1,
+p {
+  margin: 0;
+}

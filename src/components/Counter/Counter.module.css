@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  gap: 10px;
+}
+
+.active {
+  padding: 1px 5px;
+  text-align: center;
+  color: var(--light-color);
+  border: 1px solid var(--border-color);
+  background-color: var(--button-bgc);
+}
+
+.completed {
+  padding: 1px 5px;
+  text-align: center;
+  color: var(--accent-color);
+  border: 1px solid var(--border-color);
+  background-color: var(--button-bgc);
+}
+
+.textActive {
+  margin: 0;
+  color: var(--light-color);
+}
+
+.textCompleted {
+  margin: 0;
+  color: var(--accent-color);
+}

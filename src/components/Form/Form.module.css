@@ -1,0 +1,32 @@
+.form {
+  display: flex;
+  height: 40px;
+  font-size: 14px;
+}
+
+.input {
+  margin: 0 12px 0 0;
+  padding: 0 4px;
+  width: 100%;
+  color: var(--light-color);
+  outline: none;
+  border: none;
+  border-bottom: 1px solid var(--light-color);
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.button {
+  flex-shrink: 0;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  color: var(--light-color);
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.button:hover {
+  scale: 1.1;
+}

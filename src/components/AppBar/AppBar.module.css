@@ -1,0 +1,38 @@
+.wrapper {
+  justify-content: space-between;
+  margin: 15px 0 0 0;
+  padding: 10px 15px;
+}
+
+@media screen and (min-width: 480px) {
+  .wrapper {
+    display: flex;
+  }
+}
+
+.section {
+  gap: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .section {
+    display: flex;
+    align-items: center;
+  }
+
+  .section:not(:last-child) {
+    margin: 0 0 20px 0;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .section {
+    display: grid;
+  }
+}
+
+.title {
+  margin: 0;
+  font-size: 16px;
+  color: var(--light-color);
+}
